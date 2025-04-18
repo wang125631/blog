@@ -1,0 +1,32 @@
+# Hexo Blog Commit Message Template
+
+# 类型(type) 必填，用于说明 commit 的类别，只允许使用下面7个标识：
+# feat:     新功能（feature）
+# fix:      修复bug
+# docs:     文档更新
+# style:    代码格式（不影响代码运行的变动）
+# refactor: 重构（既不是新增功能，也不是修改bug的代码变动）
+# test:     增加测试
+# chore:    构建过程或辅助工具的变动
+
+# 主题(scope) 选填，用于说明 commit 影响的范围，比如数据层、控制层、视图层等等
+
+# 描述(description) 必填，对本次 commit 的简短描述
+
+# 详细描述(body) 选填，对本次 commit 的详细描述
+
+# 不兼容变更(breaking changes) 选填，列出所有不兼容的变更
+
+# 关联问题(issues) 选填，列出所有相关的 issue
+
+# 示例：
+# feat(post): 添加新的博客文章
+# fix(theme): 修复主题样式问题
+# docs(readme): 更新项目文档
+# style: 格式化代码
+# refactor(config): 重构配置文件结构
+# test: 添加单元测试
+# chore: 更新依赖包
+
+# 请在上面输入您的提交信息。以 '#' 开头的行将被忽略。
+# 空行将中断提交。 

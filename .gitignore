@@ -1,0 +1,39 @@
+# Hexo 项目 .gitignore 文件
+
+# 依赖目录
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 生成的文件
+public/
+db.json
+.deploy_git/
+
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器目录和文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.log
+*.tmp
+.temp/
+
+# 主题目录（如果使用第三方主题，建议单独管理）
+themes/*/
+!themes/landscape/ 
